@@ -42,7 +42,7 @@ X_smote_norm = scaler.fit_transform(X_smote)
 
 # knn_model.fit(X_train_normal,y_train_normal)
 
-model = pickle.load(open("model/knn_model.pkl","rb"))
+model = pickle.load(open("model/rf_model.pkl","rb"))
 
 y_pred = model.predict(X_smote_norm)
 # y_pred_knn = knn_model.predict(X_test_normal)
