@@ -181,9 +181,9 @@ with tab1 :
     'Thalach': thalach,
     'Exang': exang_sb,
     'Oldpeak': oldpeak,
-    'slope': slope_sp,
+    'slope': slope_sb,
     'ca': ca,
-    'thal': thal_sp
+    'thal': thal_sb
   }
   
   tabel_df = pd.DataFrame(data,index=['input'])
